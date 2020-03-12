@@ -1,0 +1,106 @@
+/*****************************ALL LATEST FONT*****************************/
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+/*******************************TAG SECTION*******************************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+}
+
+/*******************************CLASS SECTION*******************************/
+/*FONT PAGE SECTION*/
+.top-container {
+  background-color: lightblue;
+  padding: 0;
+  position: relative;
+  padding-top: 18px;
+}
+
+.font-page-title {
+  position: relative;
+  top: 170px;
+  font-family: 'Sacramento', cursive;
+  color: #33954D;
+  font-size: 100px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.font-page-paragraph {
+  position: relative;
+  top: 160px;
+  margin: 0;
+  color: #10723E;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 170px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+.bird {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+
+/*MIDDLE CONTAINER*/
+.middle-container {
+  background-color: #F7E17B;
+  width: 100%;
+  position: relative;
+  bottom: 8px;
+  padding-top: 40px;
+}
+
+.skills-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.designer-image {
+  width: 35%;
+}
+
+.programmer-image {
+  width: 35%;
+}
+
+/*LAST container*/
+.bottom-container {
+  background-color: white;
+}
