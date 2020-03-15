@@ -6,9 +6,33 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive;
 */
 /*******************************TAG SECTION*******************************/
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 1rem 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #10723E;
+  font-size: 120%;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: .5s;
+}
+
+a:hover {
+  color: #001008;
+  transition: .4s;
+}
+
 body {
   margin: 0;
   text-align: center;
+  background-color: #DDEFF5;
 }
 
 p {
@@ -18,45 +42,82 @@ p {
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  color: red;
+  color: #235952;
 }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
-  color: red;
+  color: #235952;
 }
 
-h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  color: red;
-}
 
 /*******************************CLASS SECTION*******************************/
-/*FONT PAGE SECTION*/
-.top-container {
-  background-color: lightblue;
-  padding: 0;
+/*************FONT PAGE SECTION**************/
+
+/*******NAVIGATION BAR********/
+.header-section {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.container {
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+
+.div-row {
+  display: block;
+  height: 85px;
+}
+
+.link-bar {
+  width: 50%;
+  display: block;
   position: relative;
-  padding-top: 18px;
+  left: 15rem;
+  top: 1rem;
+  margin: auto;
+}
+
+.logo-div{
+  position: relative;
+  min-height: 1px;
+  width: 33.333333%;
+  float: left;
+  display: block;
+}
+
+.logo{
+  margin-right: 8rem;
+}
+
+/*******FONT PAGE ELEMENTS*******/
+.top-container {
+  background-color: #DDEFF5;
+}
+
+.big-header {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 76px;
 }
 
 .font-page-title {
-  position: relative;
-  top: 170px;
+  margin: 0;
   font-family: 'Sacramento', cursive;
   color: #33954D;
   font-size: 100px;
-  margin: 0;
   font-weight: normal;
 }
 
 .font-page-paragraph {
-  position: relative;
-  top: 160px;
-  margin: 0;
   color: #10723E;
+  margin: 0;
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  bottom: 11px;
 }
 
 .top-cloud {
@@ -77,30 +138,107 @@ h3 {
   left: 150px;
 }
 
-/*MIDDLE CONTAINER*/
-.middle-container {
-  background-color: #F7E17B;
-  width: 100%;
+.mountain {
+  margin-top: 100px;
   position: relative;
-  bottom: 8px;
-  padding-top: 40px;
+  top: 8px;
+
 }
 
-.skills-row {
+/********FONT PAGE SECOUND SECTION********/
+.profile {
+  background-color: #f6d485;
+  padding-top: 80px;
+}
+
+.about-me {
   width: 50%;
-  margin: 150px auto;
+  margin: 60px auto;
+  padding-bottom: 30px;
+}
+
+.about-header {
+  color: #7a4d1d;
+  margin-bottom: 28px;
+  font-size: 2rem;
+}
+
+.outer-core {
+  position: relative;
+  top: 15px;
+}
+
+/********FONT PAGE THIRD SECTION*********/
+.skills-section {
+  background-color: #d6d6d6;
+  padding-top: 70px;
+}
+
+.skills-header {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.designing {
+  width: 55%;
+  margin: 100px auto;
   text-align: left;
 }
 
+.designer-header {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
 .designer-image {
-  width: 35%;
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
+.programming {
+  width: 55%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.programmer-header {
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 .programmer-image {
-  width: 35%;
+  width: 30%;
+  float: right;
+  margin-left: 50px;
 }
 
-/*LAST container*/
-.bottom-container {
-  background-color: white;
+.inner-core {
+  position: relative;
+  top: 15px;
+}
+
+/********FOOTER SECTION*********/
+.footer-div {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.footer-paragraph{
+  color: black;
+  margin-top: 40px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #235952;
+  margin: 30px;
+  font-size: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: .4s;
+}
+
+.footer-link:hover {
+  transition: .5s;
+  color: black;
 }
