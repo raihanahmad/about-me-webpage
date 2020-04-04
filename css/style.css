@@ -20,6 +20,10 @@ font-family: 'Sacramento', cursive;
     padding: 0;
     box-sizing: border-box;
   }
+
+  html, body {
+    overflow-x: hidden;
+  }
   
   h1, h2, h3, h4, h5, h6, a {
     font-family: 'Josefin Sans', sans-serif;
@@ -49,7 +53,7 @@ font-family: 'Sacramento', cursive;
     padding: 0 1rem;
 }
 
-/************************ HEADER SECTION *************************/
+/************************ FULL PAGE SECTION *************************/
 /******** NAVIGATION BAR ********/
 #landing {
     /* height: 100vh; */
@@ -98,6 +102,7 @@ font-family: 'Sacramento', cursive;
 }
 
 /******** SHOWCASE ********/
+
 #showcase .container {
     position: relative;
 }
@@ -136,6 +141,11 @@ font-family: 'Sacramento', cursive;
     font-family: 'Josefin Sans', sans-serif;
     color: var(--primary-color);
     margin-bottom: 5.5rem;
+}
+
+#showcase .m-2, 
+#showcase .m-3 {
+    display: none;
 }
 
 #showcase .mountain {
@@ -227,6 +237,10 @@ font-family: 'Sacramento', cursive;
 .programmer-image {
     width: 220px;
     margin-top: .6rem;
+}
+
+.p-i-2 {
+    display: none;
 }
 
 .designer-image {
