@@ -12,39 +12,46 @@ font-family: 'Sacramento', cursive;
     --secondary-color: #235952;
     --dark-color: #001008;
     --ligth-color: #DDEFF5;
-  }
-  
-  /************************DEFAULT CSS RESET*************************/
-  * {
+}
+
+/************************DEFAULT CSS RESET*************************/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  html, body {
+html,
+body {
     overflow-x: hidden;
-  }
-  
-  h1, h2, h3, h4, h5, h6, a {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
     font-family: 'Josefin Sans', sans-serif;
-  }
-  
-  p {
+}
+
+p {
     font-family: 'Comfortaa', cursive;
-  }
-  
-  /* img {
+}
+
+/* img {
     width: 100%;
-  } */
-  
-  ul {
+} */
+
+ul {
     list-style: none;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: var(--primary-color);
-  }
+}
 
 /************************ UTILITY CLASSES *************************/
 .container {
@@ -88,7 +95,7 @@ font-family: 'Sacramento', cursive;
     justify-content: flex-end;
 }
 
-#landing .navbar .div-row .link-bar ul li{
+#landing .navbar .div-row .link-bar ul li {
     margin-left: 2.2rem;
 }
 
@@ -107,18 +114,18 @@ font-family: 'Sacramento', cursive;
     position: relative;
 }
 
-#showcase .container > .top-cloud,
-#showcase .container > .bottom-cloud {
+#showcase .container>.top-cloud,
+#showcase .container>.bottom-cloud {
     width: 145px;
     position: absolute;
 }
 
-#showcase .container > .top-cloud {
+#showcase .container>.top-cloud {
     top: 0;
     right: 1rem;
 }
 
-#showcase .container > .bottom-cloud{
+#showcase .container>.bottom-cloud {
     bottom: 0;
     left: 1rem;
 }
@@ -143,7 +150,7 @@ font-family: 'Sacramento', cursive;
     margin-bottom: 5.5rem;
 }
 
-#showcase .m-2, 
+#showcase .m-2,
 #showcase .m-3 {
     display: none;
 }
@@ -166,17 +173,17 @@ font-family: 'Sacramento', cursive;
 }
 
 #about .about-content img {
-    width: 200px;
+    width: 220px;
     margin: 2.8rem;
 }
 
-#about .about-content  .about-me {
+#about .about-content .about-me {
     width: 72%;
     margin: auto;
     line-height: 2;
 }
 
-#about .about-content  .about-me h1 {
+#about .about-content .about-me h1 {
     font-size: 2rem;
     margin-bottom: .75rem;
     color: #7a4d1d;
@@ -215,13 +222,14 @@ font-family: 'Sacramento', cursive;
     margin-bottom: .3rem;
 }
 
-#skills .skills-section > h1 {
+#skills .skills-section>h1 {
     font-size: 3.5rem;
     margin: 2rem 0 3rem;
 }
 
 #skills .skills-section .designing,
-#skills .skills-section .programming {
+#skills .skills-section .programming,
+#skills .skills-section .web-development {
     display: grid;
     grid-template-columns: repeat(2, 1fr auto);
     justify-content: center;
@@ -234,7 +242,8 @@ font-family: 'Sacramento', cursive;
 }
 
 .designer-image,
-.programmer-image {
+.programmer-image,
+.web-development-image {
     width: 220px;
     margin-top: .6rem;
 }
@@ -243,7 +252,8 @@ font-family: 'Sacramento', cursive;
     display: none;
 }
 
-.designer-image {
+.designer-image,
+.web-development-image {
     margin-right: 3.125rem;
 }
 
@@ -258,7 +268,7 @@ font-family: 'Sacramento', cursive;
 .inner-core {
     position: relative;
     top: 15px;
-  }
+}
 
 /******** FOOTER SECTION ********/
 #main-footer {
@@ -278,9 +288,9 @@ font-family: 'Sacramento', cursive;
     color: var(--dark-color);
 }
 
-#main-footer .copyright p{
+#main-footer .copyright p {
     color: var(--dark-color);
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     font-size: .8rem;
-  }
+}
