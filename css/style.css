@@ -55,7 +55,7 @@ a {
 
 /************************ UTILITY CLASSES *************************/
 .container {
-    max-width: 970px;
+    max-width: 1000px;
     margin: auto;
     padding: 0 1rem;
 }
@@ -109,6 +109,11 @@ a {
 }
 
 /******** SHOWCASE ********/
+#showcase {
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+}
 
 #showcase .container {
     position: relative;
@@ -121,13 +126,13 @@ a {
 }
 
 #showcase .container>.top-cloud {
-    top: 0;
-    right: 1rem;
+    top: 3.5rem;
+    right: -13rem;
 }
 
 #showcase .container>.bottom-cloud {
-    bottom: 0;
-    left: 1rem;
+    bottom: 5.5rem;
+    left: -13rem;
 }
 
 #showcase .showcse-content {
@@ -293,4 +298,11 @@ a {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     font-size: .8rem;
+}
+
+
+@media (min-height: 1000px) {
+    #showcase {
+        height: 1000px;
+    }
 }

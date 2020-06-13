@@ -1,5 +1,7 @@
 /**************************** PAD RESPONSIVE ****************************/
 #showcase {
+    height: unset;
+    display: unset;
     position: relative;
 }
 
